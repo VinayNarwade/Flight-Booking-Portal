@@ -1,0 +1,110 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+   
+}
+.navbar{
+    position: fixed;
+    background: black;
+  width: 98%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+  border-radius: 20px;
+  backdrop-filter: blur(10rem);
+  display: flex;
+	z-index: 500;
+	left: 0.7%;
+	top: 0;
+}
+
+
+navbar{
+    -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 0.5%;
+    width: 98%;
+    background-color: transparent;
+}
+.navabar-group{
+    padding: 10px;
+}
+.nav-item{
+    color: red;
+    padding: 15px;
+    text-align: center;
+}
+.nav-link{
+    color: red;
+}
+.logo{
+    width:60px;
+    padding: 4px;
+    float:center;
+}
+.brand{
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #4facfe, #00f2fe);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px;
+}
+.navinput{
+    background-color: transparent;
+    border-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: -2%;
+}
+.button1{
+    background-color: transparent;
+    border-radius: 20px;
+}
+.navbar-toggler{
+    color: black;
+    background-color: grey;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    background-image: linear-gradient(45deg, #4facfe, #00f2fe);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.signup {
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;    
+padding: 130px;
+margin-top: 9%;
+background-image: url(Images/Flight.jpg);
+background-size: cover;
+height: 800px;
+background-repeat: no-repeat;
+}
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;    
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+.footer{
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+margin-top: 5%;
+}

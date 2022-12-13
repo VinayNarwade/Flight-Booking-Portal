@@ -1,0 +1,456 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+   
+}
+.navbar{
+    position: fixed;
+    background: black;
+  width: 98%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+  border-radius: 20px;
+  backdrop-filter: blur(10rem);
+  display: flex;
+	z-index: 500;
+	left: 0.7%;
+	top: 0;
+}
+
+
+navbar{
+    -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 0.5%;
+    width: 98%;
+    background-color: transparent;
+}
+.navabar-group{
+    padding: 10px;
+}
+.nav-item{
+    color: red;
+    padding: 15px;
+    text-align: center;
+}
+.nav-link{
+    color: red;
+}
+.logo{
+    width:60px;
+    padding: 4px;
+    float:center;
+}
+.brand{
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #4facfe, #00f2fe);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px;
+}
+.navinput{
+    background-color: transparent;
+    border-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: -2%;
+}
+.button1{
+    background-color: transparent;
+    border-radius: 20px;
+}
+.navbar-toggler{
+    color: black;
+    background-color: grey;
+}
+.jumoffers{
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    align-content: center;
+    border-radius: 20px;
+    margin-left: 1%;
+    padding: 20px;
+    height: 470px;
+    width:98%;
+}
+.offers1{
+    width:200px;
+    height:300px;
+}
+.jumheader{
+    font-weight: bolder;
+    text-align: center; 
+    font-size: 30px;
+}
+.carousel-inner img {
+    border-image-width: auto;  
+    border-radius: 20px;
+    margin-left: 5%;
+    align-content: center;
+    scroll-behavior: smooth;
+    width:1000px;
+    height:390px;
+  }
+.guide{
+    width: 98%;
+    border-radius: 20px;
+    margin-left: 1%;
+}
+.guideheader{
+    text-align: center;
+    font-size: 25px;
+}
+.gimg1{
+    margin-left: 0.5%;
+    width: 200px;
+}
+.rules{
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-image: url(https://wallpapercave.com/wp/wp9183247.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    width:98%;
+    border-radius: 30px;
+    height: 500px;
+    margin-left: 12%;
+}
+.rulesheader{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px;
+    background: -webkit-linear-gradient(#96fbc4, #f9f586);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card{
+    width: 15rem;
+    left: 3%;
+    border-radius: 15px;
+}
+.card2{
+    width: 15rem;
+    border-radius: 15px;
+   }
+.card3{
+    width: 15rem;
+    border-radius: 15px;
+}
+.card4{
+    width: 15rem; 
+    border-radius: 15px;
+}
+.rulesbtn{
+    margin-left: 10%;
+}
+.search{
+    margin-top: 5%;
+    margin-left: 4%;
+    background-color: transparent;
+}
+.pichead{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.pictures{
+    border-radius: 20px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 250px;
+    background-color: transparent;
+    margin-top: 9%;
+    margin-left: -7%;
+    height: 350px;
+}
+.goa{
+    border-radius: 20px;
+    width: 260px;
+    height: 350px;
+}
+.pictures2{
+    border-radius: 20px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 270px;
+    background-color: transparent;
+    margin-top: 9%;
+    margin-left: 1%;
+    height: 345px;
+}
+.mumbai{
+    margin-left: 0.5%;
+    border-radius: 20px;
+    width: 267px;
+    height: 390px;
+}   
+.pictures3{
+    border-radius: 20px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 250px;
+    margin-left: 0.5%;
+    background-color: transparent;
+    margin-top: 9%;
+    height: 345px;
+}
+.agra{
+    margin-left: 1%;
+    border-radius: 20px;
+    width: 260px;
+    height: 350px;
+}   
+.pictures4{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 250px;
+    border:none;
+    margin-left: 1%;
+    background-color: transparent;
+    margin-top: 9%;
+    height: 340px;
+}
+.ahmedabad{
+    margin-left: 1%;
+    border-radius: 20px;
+    width: 260px;
+    height: 345px;
+}   
+
+.pictures5{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 260px;
+    border: none;
+    margin-left: 26.5%;
+    background-color: transparent;
+    margin-top: -22%;
+    height: 320px;
+}
+.chennai{
+    margin-left: 1%;
+    border-radius: 20px;
+    width: 258px;
+    height: 330px;
+}   
+
+.pictures6{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 260px;
+    border: none;
+    margin-left: 1%;
+    background-color: transparent;
+    margin-top: -22%;
+    height: 320px;
+}
+.pune{
+    border-radius: 20px;
+    width: 258px;
+    height: 330px;
+}   
+
+.pictures7{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 260px;
+    border: none;
+    margin-left: 1%;
+    background-color: transparent;
+    margin-top: -22%;
+    height: 320px;
+}
+.hyderabad{
+    border-radius: 20px;
+    width: 258px;
+    height: 330px;
+}   
+
+.pictures8{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 250px;
+    border: none;
+    margin-left: 0.5%;
+    background-color: transparent;
+    margin-top: -22%;
+    height: 320px;
+}
+.mangalore{
+    border-radius: 20px;
+    width: 250px;
+    height: 330px;
+}   
+
+
+.sehead{
+    font-size: 50px;
+    background-image: linear-gradient(45deg, #30cfd0, #330867);
+     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.formcard {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-image: linear-gradient(60deg, #a1c4fd 0%, #c2e9fb 100%);
+    width: 400px;
+    margin-left: -3%;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 12px
+}
+
+label.radio {
+    cursor: pointer;
+    width: 100%
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 7px 14px;
+    border: 2px solid #eee;
+    display: inline-block;
+    color: #039be5;
+    border-radius: 10px;
+    width: 100%;
+    height: 48px;
+    line-height: 27px
+}
+
+label.radio input:checked+span {
+    border-color: #039BE5;
+    background-color: #81D4FA;
+    color: #fff;
+    border-radius: 9px;
+    height: 48px;
+    line-height: 27px
+}
+
+.form-control {
+    margin-top: 10px;
+    height: 48px;
+    border: 2px solid #eee;
+    border-radius: 10px
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #039BE5
+}
+
+.agree-text {
+    font-size: 12px
+}
+
+.terms {
+    font-size: 12px;
+    text-decoration: none;
+    color: #039BE5
+}
+
+.confirm-button {
+    height: 50px;
+    border-radius: 10px
+}
+.marquee{
+    width: 50px;
+}
+.reco{
+    margin-top: 6%;
+    padding: 20px;
+    border-radius: 20px;
+    height: 690px;
+}
+.reimg1{
+border-radius: 15px;
+ width: 300px;   
+}
+
+.partners{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+margin-top: 2%;
+ background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+border-radius: 30px;
+}
+.pathead{
+    text-align: center;
+    
+}
+.airindia{
+    padding: 30px;
+    width: 300px;
+}
+.indigo{
+    padding: 30px;
+     width: 300px;
+}
+.spicejet{
+       width: 300px;
+    padding: 30px;
+}
+.airasia{
+    padding: 30px;
+     width: 300px;
+}
+.goair{
+    padding: 30px;
+      width: 300px;
+}
+
+.paypartners{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+margin-top: 2%;
+ background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+border-radius: 30px;
+}
+
+.visa{
+    padding: 30px;
+    width: 300px;
+}
+.master{
+    padding: 30px;
+     width: 250px;
+}
+.upi{
+    width: 300px;
+    padding: 30px;
+}
+.paytm{
+    padding: 30px;
+    width: 300px;
+}
+.paypal{
+    padding: 30px;
+    width: 300px;
+}
+.footer{
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}

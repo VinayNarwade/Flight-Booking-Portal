@@ -1,0 +1,351 @@
+<html>
+    <head>
+    <title>BookMySeat.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Bookmyseat.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar">
+    <img class="rounded img-fluid logo" src="Images/airplane.png">
+  <h2 class="navbar-brand display-2 brand" href="#">Book My Seat</h2>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto navabar-group">
+      <li class="nav-item active">
+        <a class="nav-link" href="Bookmyseat.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="Book.html">Book<span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item active nav-item">
+        <a class="nav-link" href="Offers.html">Offers<span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item active nav-item">
+        <a class="nav-link" href="Assistance.html">Assistance<span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item active nav-item">
+        <a class="nav-link" href="SignIN.html">Login<span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item active nav-item">
+        <a class="nav-link" href="SignUP.html">Sign Up<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 navinput" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0 button1" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    
+    <div class="row">
+    <div class="col-sm-3 col-md-4 col-xl-4">
+        <div class="jumbotron jumbotron-fluid search">
+            <div class="card px-1 py-4 formcard">
+        <div class="card-body">
+            <h4 class="card-title display-4 mb-3 sehead">Ready to fly??</h4><marquee direction="right"><img class="marquee" src="https://cdn.iconscout.com/icon/free/png-256/plane-2359613-1987480.png"></marquee>
+            <div class="d-flex flex-row"> <label class="radio mr-1"> <input type="radio" name="add" value="anz" checked> <span> <i class="fa fa-user"></i>One Way</span> </label> <label class="radio mr-1"> <input type="radio" name="add" value="anz" checked> <span> <i class="fa fa-user"></i> Round Trip </span> </label> <label class="radio"> <input type="radio" name="add" value="add"> <span> <i class="fa fa-plus-circle"></i> Multi-City</span> </label> </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="From"> </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <div class="input-group"> <input class="form-control" type="text" placeholder="To"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <div class="input-group"> <input class="form-control" type="date" placeholder="Departure Date"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <div class="input-group"> <input class="form-control" type="number" maxlength="10" placeholder="No of passengers"> </div>
+                    </div>
+                </div>
+            </div>
+         <a href="SignIN.html"><button class="btn btn-primary btn-block confirm-button">Search flights</button></a>
+        </div>
+            </div>
+        </div>
+    </div>
+    <div class="card pictures">
+  <img class="card-img-top goa" src="Images/Goa.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title pichead">Flights to Goa starting from</h4>
+    <p class="card-text pichead">Rs. 4,000</p>
+    <a href="Book.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div>
+    <div class="card pictures2">
+      <img class="card-img-top mumbai" src="Images/Mumbai.jpg" alt="Card image">
+      <div class="card-img-overlay">
+        <h4 class="card-title pichead">Flights to Mumbai starting from</h4>
+        <p class="card-text pichead">Rs. 3,500</p>
+        <a href="Book.html" class="btn btn-primary">Book Now</a>
+      </div>
+</div>  
+<div class="card pictures3">
+  <img class="card-img-top agra" src="Images/Agra.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title pichead">Flights to Agra starting from</h4>
+    <p class="card-text pichead">Rs. 8,000</p>
+    <a href="Book.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div> 
+<div class="card pictures4">
+  <img class="card-img-top ahmedabad" src="Images/Ahmedabad.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title pichead">Flights to Ahmedabad starting from</h4>
+    <p class="card-text pichead">Rs. 6,500</p>
+    <a href="Book.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div>         
+
+<div class="card pictures5">
+  <img class="card-img-top chennai" src="Images/Chennai.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title pichead">Flights to Chennai starting from</h4>
+    <p class="card-text pichead">Rs. 2,500</p>
+    <a href="Book.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div> 
+
+<div class="card pictures6">
+  <img class="card-img-top pune" src="Images/Pune.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title pichead">Flights to Pune starting from</h4>
+    <p class="card-text pichead">Rs. 3,500</p>
+    <a href="Book.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div>         
+    
+<div class="card pictures7">
+  <img class="card-img-top hyderabad" src="Images/Hyderabad.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title pichead">Flights to Hyderabad starting from</h4>
+    <p class="card-text pichead">Rs. 2,000</p>
+    <a href="Book.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div> 
+
+<div class="card pictures8">
+  <img class="card-img-top mangalore" src="Images/Mangalore.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title pichead">Flights to Mangalore starting from</h4>
+    <p class="card-text pichead">Rs. 1,800</p>
+    <a href="Book.html" class="btn btn-primary">Book Now</a>
+  </div>
+</div>         
+    </div>
+    
+         <div class="row">
+    <div class="col-sm-10 col-md-12 col-xl-12"> 
+<div class="jumbotron jumbotron-fluid jumoffers">
+    <div class="container offers">
+        <h2 class="display-2 jumheader">OFFERS FOR YOU</h2>
+  <div id="GFG" class="carousel carousel slide carousel-fade slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#GFG" data-slide-to="0" class="active"></li>
+        <li data-target="#GFG" data-slide-to="1"></li>
+        <li data-target="#GFG" data-slide-to="2"></li>
+        <li data-target="#GFG" data-slide-to="3"></li>
+    </ul>
+    <div class="carousel-inner rounded-5 shadow-4-strong">
+        <div class="carousel-item active">
+            <img class="img-fluid" src=
+"https://cdn.grabon.in/gograbon/images/web-images/uploads/1618575355495/flight-offers.jpg"
+            alt="GFG" width="600" height="400">
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src=
+"https://cdn.static-zoutons.com/images/originals/blog/1__20210702T162622.389_1625223404.png"
+            alt="GFG" width="600" height="600">
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid" src=
+"https://www.pcquest.com/wp-content/uploads/2019/05/amazon-flight-booking.jpg"
+            alt="GFG" width="600" height="400">
+        </div>
+    </div>
+      <a class="carousel-control-prev" href="#GFG" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#GFG" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+</div>    
+</div>
+    </div>
+    </div>
+
+<div class="row">
+    <div class="col-sm-1 col-md-11 col-xl-12">
+<div class="container container-fluid rules">  
+    <h2 class="display-2 rulesheader">Fly safe & hassle-free</h2>
+ <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+            <img class="card-img-top" src="https://static.goindigo.in/content/dam/indigov2/6e-website/banners/2020/fly-safe/web-checkin.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mandatory Web check-in</h5>
+                    <p class="card-text">Checkin between 48hrs-60min before your flight </p>
+                    <a href="#" class="btn btn-primary rulesbtn">Go somewhere</a>
+                </div>
+            </div>
+     
+         </div>
+     <div class="col-sm-3">
+            <div class="card card2">
+            <img class="card-img-top" src="https://static.goindigo.in/content/dam/indigov2/6e-website/banners/2020/fly-safe/LCFM-LndngPgBnnr-Thmbnl-SlfDcl.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mandatory health declaration</h5>
+                    <p class="card-text">Declare your health status before you fly</p>
+                    <a href="#" class="btn btn-primary rulesbtn">Go somewhere</a>
+                </div>
+            </div>
+     
+         </div>
+     <div class="col-sm-3">
+            <div class="card card3">
+            <img class="card-img-top" src="https://static.goindigo.in/content/dam/indigov2/6e-website/banners/2020/fly-safe/Arogya.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Install Aarogya Setu app</h5>
+                    <p class="card-text">Install Aarogya app for your safety</p>
+                    <a href="#" class="btn btn-primary rulesbtn">Go somewhere</a>
+                </div>
+            </div>
+     
+         </div>
+     <div class="col-sm-3">
+            <div class="card card4">
+            <img class="card-img-top" src="https://static.goindigo.in/content/dam/indigov2/6e-website/banners/2020/fly-safe/Face-mask.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Wear Mask and gloves</h5>
+                    <p class="card-text">Wear mask and gloves throughout the journey</p>
+                    <a href="#" class="btn btn-primary rulesbtn">Go somewhere</a>
+                </div>
+            </div>
+     
+         </div>
+         
+</div>
+</div>      
+</div>
+</div>    
+ 
+<div class="row">
+    <div class="col-sm-5 cl-md-10 col-xl-12">
+            <div class="jumbotron jumbotron-fluid partners">
+                <h4 class="display-4 pathead">Our Partners</h4>
+                    <a href="https://www.airindia.in/"><img class="img img-fluid airindia" src="https://1000logos.net/wp-content/uploads/2020/09/Air-India-logo.png"></a>
+                    <a href="https://www.goindigo.in/?cid=Search|Google|Brand|Brand_New|IndiGo|1&s_kwcid=AL!12293!3!447878758929!e!!g!!indigo&gclid=EAIaIQobChMI_-PXj-K09wIVwJlmAh22OA8aEAAYASAAEgJw3PD_BwE"><img class="img img-fluid indigo" src="https://1000logos.net/wp-content/uploads/2021/07/IndiGo-Logo.png"></a>
+                    <a href="https://www.spicejet.com/"><img class="img img-fluid spicejet" src="https://www.socialsamosa.com/wp-content/uploads/2014/05/spicejet-logo.png"></a>
+                    <a href="https://www.airasia.co.in/"><img class="img img-fluid airasia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/AirAsia_New_Logo_%282020%29.svg/800px-AirAsia_New_Logo_%282020%29.svg.png"></a>
+                <a href="https://www.flygofirst.com/"><img class="img img-fluid goair" src="https://www.pngitem.com/pimgs/m/76-766764_go-air-airlines-logo-hd-png-download.png"></a>
+    
+         </div>
+    </div>
+</div> 
+    
+<div class="row">
+    <div class="col-sm-5 cl-md-10 col-xl-12">
+            <div class="jumbotron jumbotron-fluid paypartners">
+                <h4 class="display-4 pathead">Our Payment Partners</h4>
+                    <img class="img img-fluid visa" src="https://www.freepnglogos.com/uploads/visa-inc-png-18.png">
+                    <img class="img img-fluid master" src="http://assets.stickpng.com/images/58482354cef1014c0b5e49c0.png">
+                    <img class="img img-fluid upi" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo-vector.svg/1200px-UPI-Logo-vector.svg.png">
+                    <img class="img img-fluid paytm" src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/paytm-512.png">
+                    <img class="img img-fluid paypal" src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c530.png">
+    
+         </div>
+    </div>
+</div>     
+   
+    
+<footer class="page-footer footer">
+
+  <div class="bg-success">
+    <div class="container">
+      <div class="row py-4 d-flex align-items-center">
+       <div class="col-md-12 text-center"> 
+            <a href="#"><i class="fab fa-facebook-f white-text mr-4"> </i></a>         
+            <a href="#"><i class="fab fa-twitter white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-google-plus-g white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-linkedin-in white-text mr-4"> </i></a>
+            <a href="#"><i class="fab fa-instagram white-text"> </i></a> 
+           </div>
+
+     </div>
+    </div>
+  </div>
+
+  <div class="container container-fluid text-center text-md-left mt-5 footer">
+    <div class="row">
+        <div class="col-md-3 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">About Us</h6>
+        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height: 2px">
+        <p class="mt-2">On Book My Seat book flight seats to your favorite destination. </p>
+      </div>
+
+      <div class="col-md-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">Partners</h6>
+        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px">
+       
+         <ul class="list-unstyled">
+            <li class="my-2"><a href="#">AirIndia</a></li>        
+            <li class="my-2"><a href="#">Indigo</a></li>
+            <li class="my-2"><a href="#">Spicejet</a></li>
+            <li class="my-2"> <a href="#">AirAsia</a></li>
+             <li class="my-2"> <a href="#">GoFirst</a></li>
+          </ul>
+      </div>
+  
+      <div class="col-md-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">Payment Patners</h6>
+        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px">
+          <ul class="list-unstyled">
+            <li class="my-2"><a href="#">Visa</a></li>        
+            <li class="my-2"><a href="#">MasterCard</a></li>
+            <li class="my-2"><a href="#">UPI</a></li>
+            <li class="my-2"> <a href="#">PayPa</a></li>         
+          </ul>
+      </div>
+
+      <div class="col-md-3 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">Contact Us</h6>
+        <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 75px; height: 2px">
+          <ul class="list-unstyled">
+            <li class="my-2"><i class="fas fa-envelope mr-3"></i>contact@bookmyseat.com</li>
+            <li class="my-2"><i class="fas fa-phone mr-3"></i>(+91) 1234567890</li>
+            <li class="my-2"><i class="fas fa-print mr-3"></i>(+91) 0987654321</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-copyright text-center py-3">
+    <p>&copy; Copyright
+    <a href="#">bookmyseat.com</a></p>
+    <p>All rights reserved</p>
+  </div>
+</footer>    
+</body>    

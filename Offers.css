@@ -1,0 +1,125 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+   
+}
+.navbar{
+    position: fixed;
+    background: black;
+  width: 98%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+  border-radius: 20px;
+  backdrop-filter: blur(10rem);
+  display: flex;
+	z-index: 500;
+	left: 0.7%;
+	top: 0;
+}
+
+
+navbar{
+    -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 0.5%;
+    width: 98%;
+    background-color: transparent;
+}
+.navabar-group{
+    padding: 10px;
+}
+.nav-item{
+    color: red;
+    padding: 15px;
+    text-align: center;
+}
+.nav-link{
+    color: red;
+}
+.logo{
+    width:60px;
+    padding: 4px;
+    float:center;
+}
+.brand{
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #4facfe, #00f2fe);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px;
+}
+.navinput{
+    background-color: transparent;
+    border-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: -2%;
+}
+.button1{
+    background-color: transparent;
+    border-radius: 20px;
+}
+.navbar-toggler{
+    color: black;
+    background-color: grey;
+}
+.offers{
+    border-radius: 30px;
+    padding: 20px;
+    width: 98%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 1%;  
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    margin-top: 10%;
+}
+.offerhead{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.offer1{
+    border-radius:20px; 
+    width: 350px;
+    height: 270px;
+}
+.card{ 
+    border-radius: 20px;
+    background-color: transparent;
+    text-align: center;
+    border: none; 
+}
+
+.offers2{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 20px;
+    width: 98%;
+    margin-left: 1%;  
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    margin-top: 5%;
+}
+.offers3{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 30px;
+    padding: 20px;
+    width: 98%;
+    margin-left: 1%;  
+   background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    margin-top: 5%;
+}
+.footer{
+    margin-top: 5%;
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
